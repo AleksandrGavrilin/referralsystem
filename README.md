@@ -15,7 +15,7 @@
 Below are the main parameters: <br />
 
 Endpoint: api/phone_auth <br />
-method: POST <br />
+method: GET <br />
 params: phonenumber <br />
 answer: OK, error(403) <br />
 
@@ -23,7 +23,7 @@ answer: OK, error(403) <br />
 Below are the main parameters: <br />
 
 Endpoint: api/phone_code <br />
-method: POST <br />
+method: GET <br />
 params: phonenumber, phonecode <br />
 answer: OK/JSON(referralcode), error(403) <br />
 
@@ -31,7 +31,7 @@ answer: OK/JSON(referralcode), error(403) <br />
 Below are the main parameters: <br />
 
 Endpoint: api/invite <br />
-method: POST <br />
+method: GET <br />
 params: phonenumber, usercode, invitecode <br />
 answer: OK, error(401) <br />
 
